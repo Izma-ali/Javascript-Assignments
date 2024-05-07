@@ -15,6 +15,8 @@
 
 // ==== Chapter 4 (Q1)====
 
+// document.write("<h1>Rules for naming JS variable</h1>");
+
 // document.write("<p>Variable names can only contain</p>");
 
 // document.write("<p>Variable names can only contain numbers, $ and _.For example $my_1stVariable</p>")
