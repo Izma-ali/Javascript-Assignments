@@ -163,3 +163,72 @@
 // document.write("Shipping charges "+ shippingcharges+"<br>")
 // document.write("<br>Total cost of your order is "+total)
 
+
+// ==== Chapter 5 (Q8) ==== //
+
+// document.write("<h1>Mark Sheet</h1>")
+
+// var totalMarks = 900
+// var obtainedMarks = 780 
+// var percentage = obtainedMarks/totalMarks*100
+
+// document.write("Total marks : "+totalMarks+"<br>")
+// document.write("Marks obtained : "+obtainedMarks+"<br>")
+// document.write("Percentage : "+percentage+"%")
+
+
+// ==== Chapter 5 (Q9) ==== //
+
+// var pkr = (104.80*10) + (28*25)
+
+// document.write("<h1>Currency in PKR</h1>")
+// document.write("Total currency in PKR : "+pkr)
+
+// ==== Chapter 5 (Q10) ==== //
+
+// var num =  2
+// num =(((2+5)*10)/2)
+// console.log(num)
+
+
+// ==== Chapter 5 (Q11) ==== //
+
+// document.write("<h1>Age Calculator</h1>")
+// var currentYear = 2024
+// var birthYear = 2002
+// var age = currentYear-birthYear
+
+// document.write("Current Year:"+currentYear+"<br>")
+// document.write("Birth Year:"+birthYear+"<br>")
+// document.write("Age:"+age)
+
+
+// ==== Chapter 5 (Q12) ==== //
+
+// document.write("<h1>The Geometerizer</h1>")
+
+// var radius = 20
+// document.write("Radius of a circle :"+radius+"<br>")
+
+// var circumference = 2*3.142*20
+// document.write("The circumference is :"+circumference+"<br>")
+
+// var area = 3.142*radius*radius
+// document.write("The area is :"+area)
+
+
+// ==== Chapter 5 (Q13) ==== //
+
+// document.write("<h1>The Lifetime Supply Calculator</h1>")
+
+// var snack = "Kurkure"
+// var currentAge = 21
+// var maxAge = 50
+// var perDaySnack = 2
+// var snacksToEat = (maxAge-currentAge)*(365*perDaySnack)
+
+// document.write("Favourite Snack : "+snack+"<br>")
+// document.write("Current Age : "+currentAge+"<br>")
+// document.write("Estimated Maximum Age : "+maxAge+"<br>")
+// document.write("Amount of snacks per day : "+perDaySnack+"<br>")
+// document.write("You will need "+snacksToEat+ " " +snack+" to last you until the ripe old age of " +maxAge+"<br>")
