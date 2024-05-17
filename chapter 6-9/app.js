@@ -64,3 +64,52 @@
 
 
 // === Chapter 6-9 (Q5) === //
+
+// var subject1 = prompt("Enter first subject")
+// var subject2 = prompt("Enter second subject")
+// var subject3 = prompt("Enter third subject")
+
+// var totalMarks = 100
+
+// var obtainedMarks1 = +prompt("Obtained marks of "+ subject1+" subject")
+// var obtainedMarks2 = +prompt("Obtained marks of "+ subject2+" subject")
+// var obtainedMarks3 = +prompt("Obtained marks of "+ subject3+" subject")
+
+// var obtainedMarks123 = obtainedMarks1+obtainedMarks2+obtainedMarks3
+// var percentage = obtainedMarks123/300*100
+
+// document.write(
+//     `<table>
+//     <tr>
+//     <th>Subject</th>
+//     <th>Total Marks</th>
+//     <th>Obtained Marks</th>
+//     <th>Percentage</th> 
+//     </tr>
+//     <tr>
+//         <td>${subject1}</td>
+//         <td>${totalMarks}</td>
+//         <td>${obtainedMarks1}</td>
+//         <td>${obtainedMarks1}%</td>
+//     </tr>
+//     <tr>
+//     <td>${subject2}</td>
+//     <td>${totalMarks}</td>
+//     <td>${obtainedMarks2}</td>
+//     <td>${obtainedMarks2}%</td>
+// </tr>
+// <tr>
+//         <td>${subject3}</td>
+//         <td>${totalMarks}</td>
+//         <td>${obtainedMarks3}</td>
+//         <td>${obtainedMarks3}%</td>
+//     </tr>
+//     <tr>
+//     <th></th>
+//     <th>300</th>
+//     <th>${obtainedMarks123}</th>
+//     <th>${percentage.toFixed(2)}%</th>
+// </tr>
+
+// </table>`
+// )
