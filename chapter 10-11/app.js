@@ -89,3 +89,57 @@
 // if("car" < "cat"){ 
 //     alert("car is smaller than cat"); }
 // output:true
+
+
+// === Chapter 9-11 (Q7) === //
+
+// var secretNum = +prompt("Guess a num between 1 to 10")
+// if(secretNum===5){
+//     alert("Bingo! Correct answer")
+// }
+// if(secretNum===6){
+//     alert("Close enough to the correct answer")
+// }
+
+
+// === Chapter 9-11 (Q8) === //
+
+// var num = +prompt("Enter a number which is divisible by 3")
+// if(num%3===0){
+//     alert("Congrats!This number is divisible by 3. ")
+// }
+
+
+// === Chapter 9-11 (Q9) === //
+
+// var num = +prompt("Enter a number to check whether it is even or odd.")
+// if(num%2===0){
+//     alert(num+" is even")
+// }
+// if(num%2!==0){
+//     alert(num+" is odd")
+// }
+
+
+// === Chapter 9-11 (Q10) === //
+
+// var temperature= +prompt("What's the temperature outside?")
+// if(temperature>40){
+//     alert("It is too hot outside.")
+// }
+// if(temperature>30){
+//     alert("The Weather today is normal.")
+// }
+// if(temperature>20){
+//     alert("Today's weather is cool.")
+// }
+// if(temperature>10){
+//     alert("OMG!Today's weather is soo cool.")
+// }
+
+
+// === Chapter 9-11 (Q11) === //
+
+var firstNum = +prompt("Enter your first number")
+var secondNum = +prompt("Enter your second number")
+var operation
