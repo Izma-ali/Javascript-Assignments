@@ -91,6 +91,39 @@
 // output:true
 
 
+// === Chapter 9-11 (Q6) === //
+
+// var sub1 = +prompt("Enter marks of first subject")
+// var sub2 = +prompt("Enter marks of second subject")
+// var sub3 = +prompt("Enter marks of third subject")
+
+// var totalMarks = 300
+// var obtainedMarks = sub1+sub2+sub3
+// var percentage = (obtainedMarks/totalMarks)*100
+
+// document.write("<h1>Mark Sheet</h1>")
+// document.write("Total Marks : "+totalMarks+ "<br>")
+// document.write("Marks Obtained : "+obtainedMarks+ "<br>")
+// document.write("Percentage : "+percentage+ "<br>")
+
+// if(percentage>=80){
+//     document.write("Grade : A-one" + "<br>" )
+//     document.write("Remarks : Excellent")
+// }
+// if(percentage>=70 && percentage<80){
+//     document.write("Grade : A" + "<br>" )
+//     document.write("Remarks : Good")
+// }
+// if(percentage>=60 && percentage<70){
+//     document.write("Grade : B" + "<br>" )
+//     document.write("Remarks : You need to improve")
+// }
+// if(percentage<60){
+//     document.write("Grade : Fail" + "<br>" )
+//     document.write("Remarks : Sorry")
+// }
+
+
 // === Chapter 9-11 (Q7) === //
 
 // var secretNum = +prompt("Guess a num between 1 to 10")
@@ -140,6 +173,22 @@
 
 // === Chapter 9-11 (Q11) === //
 
-var firstNum = +prompt("Enter your first number")
-var secondNum = +prompt("Enter your second number")
-var operation
+// var firstNum = +prompt("Enter your first number")
+// var secondNum = +prompt("Enter your second number")
+// var operation = prompt("Enter operation")
+
+// if(operation=="+"){
+//     alert(firstNum+secondNum)
+// }
+// if(operation=="-"){
+//     alert(firstNum-secondNum)
+// }
+// if(operation=="/"){
+//     alert(firstNum/secondNum)
+// }
+// if(operation=="*"){
+//     alert(firstNum*secondNum)
+// }
+// if(operation=="%"){
+//     alert(firstNum+secondNum)
+// }
