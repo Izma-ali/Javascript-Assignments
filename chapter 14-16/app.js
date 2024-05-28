@@ -57,13 +57,18 @@
 
 // === Chapter 14-16 (Q9) === //
 
-// var colorNames = ["orange","red","yellow","blue","green"]
-// document.write(colorNames)
-// var color = prompt("What color you want to add in the beggining?")
-// colorNames[4]=color
-
-
-
+var colorNames = ["orange","red","yellow","blue","green"]
+document.write("COLORS"+"<br>")
+document.write(colorNames+"<br>")
+    //  (a)
+var color = prompt("What color you want to add in the beggining?")
+colorNames.unshift(color)
+document.write(colorNames+"<br>")
+    //  (b)
+ var color = prompt("What color you want to add in the end?")
+ colorNames.push(color)
+ document.write(colorNames+"<br>")
+    //  (c)
 
 
 
@@ -76,9 +81,12 @@
 
 // === Chapter 14-16 (Q11) === //
 
-// var citiesName = ["Lahore","Karachi","Islamabad","Quetta","Peshawar"]
-// var selectedCities = citiesName[1,3]
-// console.log(selectedCities)
+var citiesName = ["Lahore","Karachi","Islamabad","Quetta","Peshawar"]
+var selectedCities = []
+selectedCities[0]=citiesName[1]
+selectedCities[1]=citiesName[3]
+selectedCities[2]=citiesName[4]
+console.log(selectedCities)
 
 
 // === Chapter 14-16 (Q12) === //
@@ -102,23 +110,25 @@
 // === Chapter 14-16 (Q14) === //
 
 // var devices = []
-// devices.push("keyboard")
-// devices.push("mouse")
-// devices.push("printer")
-// devices.push("monitor")
+// devices.unshift("keyboard")
+// devices.unshift("mouse")
+// devices.unshift("printer")
+// devices.unshift("monitor")
 
-// var devicesReversed = devices.reverse()
-
-// console.log(devicesReversed)
+// console.log(devices)
 
 
 // === Chapter 14-16 (Q15) === //
 
-var phManufacturers = []
-phManufacturers.push(Apple)
-phManufacturers.push(Samsung)
-phManufacturers.push(Motorola)
-phManufacturers.push(Nokia)
-phManufacturers.push(Sony)
-phManufacturers.push(Haier)
+// var phManufacturers = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
 
+// document.write(
+// `<select>
+//     <option>${phManufacturers[0]}</option>
+//     <option>${phManufacturers[1]}</option>
+//     <option>${phManufacturers[2]}</option>
+//     <option>${phManufacturers[3]}</option>
+//     <option>${phManufacturers[4]}</option>
+//     <option>${phManufacturers[5]}</option>
+// </select>`
+// )
