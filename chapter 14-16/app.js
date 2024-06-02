@@ -57,18 +57,44 @@
 
 // === Chapter 14-16 (Q9) === //
 
-var colorNames = ["orange","red","yellow","blue","green"]
-document.write("COLORS"+"<br>")
-document.write(colorNames+"<br>")
-    //  (a)
-var color = prompt("What color you want to add in the beggining?")
-colorNames.unshift(color)
-document.write(colorNames+"<br>")
-    //  (b)
- var color = prompt("What color you want to add in the end?")
- colorNames.push(color)
- document.write(colorNames+"<br>")
-    //  (c)
+// // document.write("<h3></h3>")
+// var colorNames = ["orange", "red", "yellow", "blue", "green"]
+// document.write("COLORS" + "<br>")
+// document.write(colorNames + "<br>")
+//    (a)
+// var color = prompt("What color you want to add in the beggining?")
+// colorNames.unshift(color)
+// document.write("COLOR ADDED IN THE BEGINNING"+"<br>")
+// document.write(colorNames+"<br>")
+//    (b)
+// var color = prompt("What color you want to add in the end?")
+// colorNames.push(color)
+// document.write("COLOR ADDED IN THE END"+"<br>")
+//  document.write(colorNames+"<br>")
+//    (c)
+// colorNames.splice(0,0,"black","brown")
+// document.write("COLOR ADDED IN THE BEGINNING"+"<br>")
+// document.write(colorNames)
+//    (d)
+// colorNames.shift(0)
+// document.write("COLOR DELETED FROM THE BEGINNING"+"<br>")
+// document.write(colorNames)
+//    (e)
+// colorNames.pop(4)
+// document.write("COLOR DELETED FROM THE END"+"<br>")
+// document.write(colorNames)
+//    (f)
+// var position = +prompt("At which position you want to add the color?")
+// var colour = prompt("Tell the color")
+// colorNames.splice(position,0,colour)
+// document.write("COLOR ADDED AT THE DESIRED POSITION"+"<br>")
+// document.write(colorNames)
+//    (g)
+// var position = +prompt("From which position you want to delete the color?")
+// var colour = prompt("How many colors you want to delete?")
+// colorNames.splice(position,colour)
+// document.write("COLOR DELETED FROM THE DESIRED POSITION"+"<br>")
+// document.write(colorNames)
 
 
 
@@ -81,12 +107,12 @@ document.write(colorNames+"<br>")
 
 // === Chapter 14-16 (Q11) === //
 
-var citiesName = ["Lahore","Karachi","Islamabad","Quetta","Peshawar"]
-var selectedCities = []
-selectedCities[0]=citiesName[1]
-selectedCities[1]=citiesName[3]
-selectedCities[2]=citiesName[4]
-console.log(selectedCities)
+// var citiesName = ["Lahore", "Karachi", "Islamabad", "Quetta", "Peshawar"]
+// var selectedCities = []
+// selectedCities[0] = citiesName[1]
+// selectedCities[1] = citiesName[3]
+// selectedCities[2] = citiesName[4]
+// console.log(selectedCities)
 
 
 // === Chapter 14-16 (Q12) === //
