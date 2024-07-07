@@ -90,3 +90,53 @@
 
 // === Chapter 20-25 (Q13) === //
 
+
+// === Chapter 20-25 (Q14) === //
+
+// var items = ["cake","applepie","cookie","chips","patties"]
+// var available = false
+// var userInput = prompt("Welcome to Sweet Bakery,What do you want to order?").toLowerCase()
+// for(var i=0;i<items.length;i++){
+// if(items[i]==userInput){
+//     alert(userInput+" is available at index "+i+" in our bakery")
+//     available=true
+// }
+// }
+// if(available==false){
+//     alert(userInput+" is not available in our bakery")
+// }
+
+
+// === Chapter 20-25 (Q15) === //
+
+
+// === Chapter 20-25 (Q16) === //
+
+// var str = "University of Karachi"
+// var arr = str.split("")
+// for(var i =0;i<arr.length;i++){
+
+//     document.write(arr[i]+"<br>")
+// } 
+
+
+// === Chapter 20-25 (Q17) === //
+
+// var str = prompt("Enter a country")
+// var lastLetter = str.slice(-1)
+// console.log(lastLetter);
+
+
+// === Chapter 20-25 (Q18) === //
+
+// var str = "The quick brown fox jumps over the lazy dog"
+// var lowered = str.toLowerCase()
+// var arr = lowered.split(" ")
+// var count = 0
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]== "the"){
+//   count++;
+//     }
+
+// }
+// console.log("There are "+count+" occurences of the word 'the'");

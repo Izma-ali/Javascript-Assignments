@@ -35,7 +35,7 @@
 // }
 
 
-// === Chapter 17-20 (Q5) === //
+// === Chapter 17-20 (Q5) === // 
 
 // var fruits =["apple","banana","mango","orange","strawberry"]
 // for(var i=0;i<=4;i++){
