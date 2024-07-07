@@ -90,7 +90,16 @@
 
 // === Chapter 20-25 (Q13) === //
 
+// var userInput = prompt("Enter a username")
+// var arr = ["@", ".", ",", "!"]
+// for (var i = 0; i < userInput.length; i++){
+//     for(var j=0;j<arr.length;j++){
+//         if (userInput[i]==arr[j]) {
+//             alert("Please enter a valid username")
+//         }
 
+//     }
+// }
 // === Chapter 20-25 (Q14) === //
 
 // var items = ["cake","applepie","cookie","chips","patties"]
@@ -109,6 +118,15 @@
 
 // === Chapter 20-25 (Q15) === //
 
+// var password = prompt("Enter a password containing alphabets and numbers")
+// var code = password.charCodeAt(0)
+// if(password.length<6){
+// alert("enter a valid password")
+// }
+// if(code>=48 && code <= 57){
+//     alert("enter a valid password")
+// }
+
 
 // === Chapter 20-25 (Q16) === //
 
@@ -117,7 +135,7 @@
 // for(var i =0;i<arr.length;i++){
 
 //     document.write(arr[i]+"<br>")
-// } 
+// }
 
 
 // === Chapter 20-25 (Q17) === //
