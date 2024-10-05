@@ -29,7 +29,7 @@
 
 // === Chapter 35-38 (Q4) === //
 
-     // Calculator//
+// Calculator//
 
 // function calculator() {
 //     var num1 = +prompt("Enter number 1")
@@ -44,7 +44,7 @@
 //     else if(operator==="-"){
 //        calculation= num1-num2
 //     }
-    
+
 //     else if(operator==="*"){
 //         calculation=num1*num2
 //     }
@@ -60,7 +60,7 @@
 
 // function square(num) {
 //     return num*num
-    
+
 // }
 // console.log(square(10));
 
@@ -112,14 +112,94 @@
 // function area(width,height) {
 //      return width*height
 // }
-// console.log("Area of rectangle : "+area(50,30));
+// var width =+ prompt("Enter width of rectangle") 
+// var height =+ prompt("Enter height of rectangle")
+// var result = area(width,height)
+// console.log("Area of rectangle is = "+result);
 
 
-// === Chapter 35-38 (Q9) === //
+// === Chapter 35-38 (Q10) === //
 
-function palindrome() {
- var words = ['wow','madam','yay']    
- words= words.toString()
- console.log(words)
-}
-palindrome()
+// function palindrome(string) {
+//      var words = ""
+//      for (var i = string.length - 1; i >= 0; i--) {
+//           words += string[i]
+//      }
+//      if (string === words) {
+//           alert(string + ' is a palindrome word')
+//      }
+//      else {
+//           alert(string + ' is  not a palindrome word')
+//      }
+// }
+// var str = prompt("Enter any word")
+// palindrome(str)
+
+
+// === Chapter 35-38 (Q11) === //
+
+// function upperCase(str){
+//      var arr = str.split(' ')
+//      var newArr = []
+//      for(var i=0 ;i<arr.length ;i++){
+//           newArr.push(arr[i].charAt(0).toUpperCase() + arr[i].slice(1))
+//      }
+//      return newArr.join(' ')
+
+// }
+// var str = 'the quick brown fox'
+// var result = upperCase(str)
+// document.write('EXAMPLE  SRING :' + str + '<br>')
+// document.write('EXPECTED  SRING :' + result + '<br>')
+
+
+// === Chapter 35-38 (Q12) === //
+
+// function longest(str) {
+//     var split = str.split(' ');
+//     var firstWord = split[0].length;
+//     for (var i = 0; i < split.length; i++) {
+//         if (firstWord < split[i].length) {
+//             firstWord = split[i]
+//         }
+//     }
+//     return firstWord;
+// }
+// var str = 'Web Development Tutorial ';
+// var result = longest(str);
+// document.write('EXAMPLE  SRING :' + str + '<br>')
+// document.write('EXPECTED  SRING :' + result + '<br>')
+
+
+// === Chapter 35-38 (Q13) === //
+
+// function count(str, letter) {
+//     var find=0;   
+//     for (var i = 0; i < str.length; i++) {
+//         if (str[i] === letter) {
+//             find += 1;
+//         }
+//     }
+//     return find
+// }
+// var str = 'JSResourceS.com';
+// var letter = 'o'
+// var result = count(str, letter);
+// document.write('The occurence of o in this string is ' + result)
+
+
+// === Chapter 35-38 (Q14) === //
+
+// function calcCircumference(value){
+//     var circumference=2*3.141*value;
+//     return circumference
+// }
+//  function calcArea(value){
+//      var area=3.141*(value*value);
+//      return area
+//  }
+// var radius=+prompt('Enter radius of circle ');
+// var circumference=calcCircumference(radius);
+// var area=calcArea(radius);
+// document.write('The Circumference of circle is '+circumference+'<br>')
+// document.write('The Area of circle is '+area+'<br>')
